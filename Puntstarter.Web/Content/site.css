@@ -1,0 +1,19 @@
+﻿body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.social {
+    height: 291px;
+    width: 835px;
+    background:url(images/default-user-icon-profile.png)
+}
+.social .panel {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: 5%;
+}
+.social .btn-primary {
+    margin-top: 50%;
+    margin-bottom: 10%;
+}
