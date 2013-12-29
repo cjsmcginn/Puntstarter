@@ -1,7 +1,9 @@
 ﻿body {
   padding-top: 50px;
   padding-bottom: 20px;
+  
 }
+
 .social {
     height: 365px;
 
@@ -20,4 +22,17 @@
 
 .c-item .panel-body{ width: 200px;margin: auto;}
 .c-item .panel-footer .progress{ height: 10px;background-color:#d0efc5}
+#rightNav{ margin-top: 56px;margin-left: 20px;padding-left: 70px;}
+#rightNav .row{ margin-top: 5px;}
+footer {
+    background-color: #000000;
+    padding: 10px;
+    margin-top: 40px;
+}
+main{ margin-top: 40px;}
 
+.recent-updates div:first-child{ padding-top: 6px;}
+
+.recent-updates img{ width: 100%;height: 100%;}
+.recent-updates button{ margin-top: 12px;}
+.top-picks .list-inline > li,.recently-funded .list-inline > li{ padding: 3px;}

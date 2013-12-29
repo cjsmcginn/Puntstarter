@@ -103,8 +103,10 @@
     <Content Include="Content\custom\variables.min.css">
       <DependentUpon>variables.less</DependentUpon>
     </Content>
+    <Content Include="discover.html" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="index.html" />
+    <Content Include="layout.html" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -156,8 +158,11 @@
     <Content Include="Content\custom\variables.less" />
     <Content Include="Content\custom\items.less" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="scratch.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\custom\carouselcontrol.js" />
+    <Content Include="Scripts\jcarousellite_1.0.2.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\less-1.5.1.js" />
