@@ -36,3 +36,16 @@ main{ margin-top: 40px;}
 .recent-updates img{ width: 100%;height: 100%;}
 .recent-updates button{ margin-top: 12px;}
 .top-picks .list-inline > li,.recently-funded .list-inline > li{ padding: 3px;}
+.ico-social {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    position: relative;
+    top: 5px;
+}
+.ico-social:empty{ width: 24px;height: 24px;}
+.ico-social.ico-social-facebook {
+    background: url('/Content/Images/social-media-icons-small.png') 49px 0px repeat scroll;
+    
+}

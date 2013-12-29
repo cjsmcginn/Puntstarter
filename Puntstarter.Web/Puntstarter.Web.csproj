@@ -78,12 +78,17 @@
     </Content>
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\htc\PIE.htc" />
+    <Content Include="Content\images\social-media-icons-small.png" />
+    <Content Include="Content\images\social-media-icons.png" />
     <Content Include="Content\images\assets\psychedelic - 25.jpg" />
     <Content Include="Content\images\assets\psychedelic 10.jpg" />
     <Content Include="Content\images\assets\psychedelic 6.jpg" />
     <Content Include="Content\images\assets\psychedelicBuddah2.jpg" />
     <Content Include="Content\images\default-user-icon-profile.png" />
     <Content Include="Content\images\favicon.png" />
+    <Content Include="Content\images\social_sprite_24px.png" />
+    <Content Include="Content\images\social_sprite_32px.png" />
+    <Content Include="Content\images\social_sprite_44px.png" />
     <Content Include="Content\site.css" />
     <Content Include="Content\custom\custom.css">
       <DependentUpon>custom.less</DependentUpon>
@@ -103,10 +108,14 @@
     <Content Include="Content\custom\variables.min.css">
       <DependentUpon>variables.less</DependentUpon>
     </Content>
+    <Content Include="Content\social.css" />
+    <Content Include="detail-home.html" />
+    <Content Include="detail.html" />
     <Content Include="discover.html" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="index.html" />
     <Content Include="layout.html" />
+    <Content Include="login.html" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
