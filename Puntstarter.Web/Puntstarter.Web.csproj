@@ -63,7 +63,21 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\custom.css" />
+    <Content Include="Content\custom\item.css">
+      <DependentUpon>items.less</DependentUpon>
+    </Content>
+    <Content Include="Content\custom\item.min.css">
+      <DependentUpon>items.less</DependentUpon>
+    </Content>
+    <Content Include="Content\custom\items.css">
+      <DependentUpon>items.less</DependentUpon>
+    </Content>
+    <Content Include="Content\custom\items.min.css">
+      <DependentUpon>items.less</DependentUpon>
+    </Content>
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\htc\PIE.htc" />
     <Content Include="Content\images\assets\psychedelic - 25.jpg" />
     <Content Include="Content\images\assets\psychedelic 10.jpg" />
     <Content Include="Content\images\assets\psychedelic 6.jpg" />
@@ -71,6 +85,24 @@
     <Content Include="Content\images\default-user-icon-profile.png" />
     <Content Include="Content\images\favicon.png" />
     <Content Include="Content\site.css" />
+    <Content Include="Content\custom\custom.css">
+      <DependentUpon>custom.less</DependentUpon>
+    </Content>
+    <Content Include="Content\custom\custom.min.css">
+      <DependentUpon>custom.less</DependentUpon>
+    </Content>
+    <Content Include="Content\custom\site.css">
+      <DependentUpon>custom.less</DependentUpon>
+    </Content>
+    <Content Include="Content\custom\site.min.css">
+      <DependentUpon>custom.less</DependentUpon>
+    </Content>
+    <Content Include="Content\custom\variables.css">
+      <DependentUpon>variables.less</DependentUpon>
+    </Content>
+    <Content Include="Content\custom\variables.min.css">
+      <DependentUpon>variables.less</DependentUpon>
+    </Content>
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
@@ -120,6 +152,9 @@
     <Content Include="Content\bootstrap\bootstrap.less" />
     <Content Include="Content\bootstrap\badges.less" />
     <Content Include="Content\bootstrap\alerts.less" />
+    <Content Include="Content\custom\custom.less" />
+    <Content Include="Content\custom\variables.less" />
+    <Content Include="Content\custom\items.less" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -141,6 +176,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -168,7 +204,9 @@
   </ProjectExtensions>
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <PropertyGroup>
-    <PreBuildEvent>recess "$(ProjectDir)Content\bootstrap\bootstrap.less" --compile &gt; "$(ProjectDir)Content\bootstrap.css"</PreBuildEvent>
+    <PreBuildEvent>call recess "$(ProjectDir)Content\bootstrap\bootstrap.less" --compile &gt; "$(ProjectDir)Content\bootstrap.css"
+call recess "$(ProjectDir)Content\custom\custom.less" --compile &gt; "$(ProjectDir)Content\custom.css"
+</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

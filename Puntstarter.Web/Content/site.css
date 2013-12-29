@@ -3,12 +3,12 @@
   padding-bottom: 20px;
 }
 .social {
-    height: 291px;
-    width: 835px;
+    height: 365px;
+
     background:url(images/default-user-icon-profile.png)
 }
 .social .panel {
-    width: 90%;
+    width: 80%;
     margin: auto;
     position: relative;
     margin-top: 5%;
@@ -17,3 +17,7 @@
     margin-top: 50%;
     margin-bottom: 10%;
 }
+
+.c-item .panel-body{ width: 200px;margin: auto;}
+.c-item .panel-footer .progress{ height: 10px;background-color:#d0efc5}
+
