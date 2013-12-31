@@ -64,20 +64,30 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\custom.css" />
-    <Content Include="Content\custom\item.css">
-      <DependentUpon>items.less</DependentUpon>
+    <Content Include="Content\custom\brand.css">
+      <DependentUpon>theme.less</DependentUpon>
     </Content>
-    <Content Include="Content\custom\item.min.css">
-      <DependentUpon>items.less</DependentUpon>
+    <Content Include="Content\custom\brand.min.css">
+      <DependentUpon>theme.less</DependentUpon>
     </Content>
-    <Content Include="Content\custom\items.css">
-      <DependentUpon>items.less</DependentUpon>
+    <Content Include="Content\custom\dividers.css">
+      <DependentUpon>text.less</DependentUpon>
     </Content>
-    <Content Include="Content\custom\items.min.css">
-      <DependentUpon>items.less</DependentUpon>
+    <Content Include="Content\custom\dividers.min.css">
+      <DependentUpon>text.less</DependentUpon>
+    </Content>
+    <Content Include="Content\custom\text.css">
+      <DependentUpon>text.less</DependentUpon>
+    </Content>
+    <Content Include="Content\custom\text.min.css">
+      <DependentUpon>text.less</DependentUpon>
     </Content>
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\htc\PIE.htc" />
+    <Content Include="Content\images\avataricon.gif" />
+    <Content Include="Content\images\brand-16.png" />
+    <Content Include="Content\images\brand-24.png" />
+    <Content Include="Content\images\brand-32.png" />
     <Content Include="Content\images\social-media-icons-small.png" />
     <Content Include="Content\images\social-media-icons.png" />
     <Content Include="Content\images\assets\psychedelic - 25.jpg" />
@@ -109,6 +119,7 @@
       <DependentUpon>variables.less</DependentUpon>
     </Content>
     <Content Include="Content\social.css" />
+    <Content Include="controls.html" />
     <Content Include="detail-home.html" />
     <Content Include="detail.html" />
     <Content Include="discover.html" />
@@ -165,7 +176,9 @@
     <Content Include="Content\bootstrap\alerts.less" />
     <Content Include="Content\custom\custom.less" />
     <Content Include="Content\custom\variables.less" />
-    <Content Include="Content\custom\items.less" />
+    <Content Include="Content\custom\box.less" />
+    <Content Include="Content\custom\theme.less" />
+    <Content Include="Content\custom\text.less" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="scratch.html" />
     <Content Include="Scripts\bootstrap.js" />
