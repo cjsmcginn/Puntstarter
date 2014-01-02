@@ -1,0 +1,26 @@
+﻿span.c-brand-icon {
+    position: relative;
+    line-height: 1;
+    display: inline-block;
+    top: 3px;
+}
+
+span.c-brand-icon-16 {
+    width: 16px;
+    height: 16px;
+    background: url(/Content/images/brand-16.png) no-repeat;
+}
+
+span.c-brand-icon-24 {
+    width: 24px;
+    height: 24px;
+    background: url(/Content/images/brand-24.png) no-repeat;
+}
+
+.c-shade-light {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.c-border-light {
+    border-color: rgba(0, 0, 0, 0.22);
+}

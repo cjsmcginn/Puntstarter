@@ -59,6 +59,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="authLayout.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -81,6 +82,12 @@
     </Content>
     <Content Include="Content\custom\text.min.css">
       <DependentUpon>text.less</DependentUpon>
+    </Content>
+    <Content Include="Content\custom\theme.css">
+      <DependentUpon>theme.less</DependentUpon>
+    </Content>
+    <Content Include="Content\custom\theme.min.css">
+      <DependentUpon>theme.less</DependentUpon>
     </Content>
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\htc\PIE.htc" />
@@ -123,6 +130,7 @@
     <Content Include="detail-home.html" />
     <Content Include="detail.html" />
     <Content Include="discover.html" />
+    <Content Include="edit.html" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="index.html" />
     <Content Include="layout.html" />
